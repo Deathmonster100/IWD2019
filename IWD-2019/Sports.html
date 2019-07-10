@@ -108,7 +108,7 @@
 					<a href = "https://deathmonster100.github.io/IWD2019/IWD-2019/index.html"><li>About Me</li></a>
 					<a href = "http://deathmonster100.github.io/IWD2019/IWD-2019/Sports.html"><li>Sports</li></a>
 					<a href = "https://deathmonster100.github.io/IWD2019/IWD-2019/Robotics.html"><li>Robotics</li></a>
-					<a href = "#"><li>Food</li></a>
+					<a href = "https://deathmonster100.github.io/IWD2019/IWD-2019/Food.html"><li>Food</li></a>
 					<a href = "#"><li>Fun Facts</li></a>
 				</ul>
 			</div>
@@ -146,7 +146,14 @@
 	<div id = "footer">
 		<div class = "container">
 			<h4>Pranav and Co. &#153;</h4>
-			<h4>Date Last Edited: 7/9/2019</h4>
+			<button onclick="myFunction()"><h4>Click For Date Accessed</h4></button>
+			<p id="demo"></p>
+			<script>
+				function myFunction() {
+	  			var x = document.lastModified;
+	  			document.getElementById("demo").innerHTML = x;
+				}
+			</script>
 		</div>
 	</div>
 </body>
